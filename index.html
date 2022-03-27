@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Corinthians - Landingpage</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Smokum&display=swap" rel="stylesheet">
+    <script>
+        function socioClick(){
+            alert("Parabéns agora você faz parte dos bando de Louco, realize o seu Login!")
+        };
+    </script>
+</head>
+
+<body>
+    <div class="logoImagem">
+        <img src="img/logo.png">
+    </div>
+    <div class="logoImagem2">
+        <img src="img/logo2.png">
+    </div>
+
+    <div class="login">
+        <a href="index.html">Login</a>
+    </div>
+
+
+    <div class="cadastroSocio">
+        <h1>Seja um sócio torcedor do Corinthians </h1>
+        <p>Sendo sócio torcedor corinthians, voce terá grandes vantagens!</p>
+    </div>
+    <div class="cadastroCentral">
+        <form>
+            <div class="cadastroCampo">
+                <input class="cadastroInput" type="text" id="fnome" name="fnome" placeholder="Primeiro Nome">
+                <input class="cadastroInput" type="text" id="fsobrenome" name="fsobrenome" placeholder="Segundo Nome"><br><br>
+                <input class="cadastroInput" type="email" id="femail" name="femail" placeholder="Seu E-mail">
+                <input class="cadastroInput" type="password" id="fsenha" name="fsenha" placeholder="Digite sua senha"><br><br>
+                
+                <select class="cadastroInput" id="ftorcedor" name="ftorcedor" value="1">
+                    <option value="1">Selecione o Plano</option>
+                    <option>Plano Fiel</option>
+                    <option>Plano Super Fiel</option>
+                    <option>Plano Master Fiel</option>
+                </select><br><br><br><br><br><br>
+            
+                <button onclick="socioClick()" class="socioButton">Virar Socio Torcedor</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

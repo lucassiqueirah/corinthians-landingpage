@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background-image: url(img/background.jpg);
+}
+
+.logoImagem img{
+    width: auto;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.login a{
+    position: absolute;
+    top: 12px;
+    left: 1450px;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    border-width: 100px;
+    background-color: #000;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: fantasy;
+
+}
+
+a:link {
+    color: #FFF;
+}
+
+.cadastroSocio h1{
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    font-family: 'Smokum', cursive;
+    background-color: #FFF;
+    box-shadow: 20px 10px 10px black;
+}
+
+.cadastroSocio p{
+text-align: center;
+color: #FFF;
+font-size: 50px;
+font-family: 'Hurricane', cursive;
+background-color: #000;
+box-shadow: 20px 10px 10px #FFf;
+}
+
+.cadastroCampo{
+     position: absolute;
+     left: 30%;
+     line-height: 50%;
+     display: block;
+}
+
+.cadastroInput{
+    width: 300px;
+    height: 25px;
+    border-style: dashed;
+}
+
+::placeholder {
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+}
+
+#ftorcedor{
+    position: absolute;
+    left: 150px;
+}
+
+.socioButton{
+    position: absolute;
+    left: 185px;
+    background-color: #000;
+    border: none;
+    color: #FFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: fantasy;
+
+}
+
+#selecioneoPlano{
+    position: absolute;
+    left: 235px;
+    font-family: cursive;
+    border: 3px solid #FFF;
+    padding :10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #000;
+    color: #FFF;
+}
+
+.cadastroInput option{
+    text-align: center;
+}
+
+.logoImagem2 img{
+    position: absolute;
+    width: auto;
+    height: 10%;
+    left: 1060px;
+    bottom: 71%;
+
+    
+}
